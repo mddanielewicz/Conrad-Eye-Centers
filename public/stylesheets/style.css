@@ -164,13 +164,10 @@ a {
   height: 20px;
 }
 
-.table th{
+.table th,
+.table td{
   width: 50%;
   color: rgb(26, 26, 89);
-}
-
-.table td {
-  color: rgb(128, 128, 179);
 }
 
 th,
@@ -178,8 +175,18 @@ td {
   text-align: center;
 }
 
+.left {
+  text-align: left;
+}
+
 .table-striped-lte-gold > tbody > tr:nth-of-type(2n+1){
   background-color: rgb(212, 167, 106);
+  
+}
+
+.ophVsOptTable {
+  width: 70%;
+  margin: 0 auto;
 }
 
 .services,
