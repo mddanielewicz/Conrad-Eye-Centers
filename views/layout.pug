@@ -1,0 +1,65 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+  body
+    div.container-fluid
+      .row
+        .col-md-6.logo.very-light-blue-bkg.title
+          h1.blue= title
+        .col-md-6.nav.very-light-blue-bkg
+          ul
+          li: h2
+            a(href="/") Home
+          li: h2
+            a(href="#") About
+          li: h2
+            a(href="#") Service  
+          li: h2 
+            a(href="#") Location
+
+      block content
+      .row.divider.dark-blue-bkg
+        .col-md-12
+      .row.services.light-blue-bkg
+        .col-md-4.sponsor
+          .row
+            .col-md-12
+              a(href='#')
+                img(src='/images/aao.png')
+          .row
+            .col-md-12
+              a(href='#')
+                img(src='/images/duke_university.png')
+          .row
+            .col-md-12
+              a(href='#')
+                img(src='/images/bbb.png')
+        .col-md-4.locations
+          h3 St. Matthews
+          h4 204 Breckenridge Lane
+          h4 Louisville, KY 40214
+          h4: a(href="tel:5028997778") 502-899-7778
+          .row
+          h3 New Albany
+          h4 1919 State Street
+          h4 Suite 210
+          h4 New Albany, IN 12345
+          h4: a(href="tel:8129446063") 812-944-6063
+        .col-md-4.social-media
+          h3 Find us online
+          .col-md-2
+            a(href="#")
+              img(src='/images/socialMedia/facebook-icon.png')
+          .col-md-2
+            a(href="#")
+              img(src='/images/socialMedia/twitter-logo.png')
+          .col-md-2
+            a(href="#")
+              img(src='/images/socialMedia/google-plus-icon.png')
+          .col-md-2
+            a(href="#")
+              img(src='/images/socialMedia/pinterest-logo.png')

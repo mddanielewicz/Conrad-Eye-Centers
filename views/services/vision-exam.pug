@@ -1,0 +1,35 @@
+extends ../layout
+
+
+block content
+  .row.very-light-gold-bkg.page-sub-text
+    .col-md-8
+      h3 Conrad Eye Centers is Kentuckiana’s one-stop-shop for all your eye care needs. 
+      h4 Here at Conrad Eye Centers we know your time is important. That is why we offer a one-stop experience for all of your eye care needs. With locations in Louisville and New Albany we provide our patients an intimate relaxing environment with easy handicap access, ample parking, flexible schedules, and the best personal ophthalmic eye care possible. Both locations are equipped with a full service optical boutique featuring stylish frames and a wide range of prices. We utilize the most current and advanced technology in diagnostics and surgery, and we are directly affiliated with Physicians Medical Center, a state-of-the-art outpatient surgery facility, and the Suburban Excimer Laser Center so scheduling your next procedure is a breeze. We are here for all your vision needs; Conrad Eye Centers.
+    .col-md-4
+      form(action='mailto:mddanielewicz@gmail.com')
+        input(type='text' placeholder='First Name' name='appt_first_name' value='' required)
+        input(type='text' placeholder='Last Name' name='appt_last_name' value='' required)
+        input(type='email' placeholder='jane.doe@email.com' name='appt_email' value='' required)
+        input(type='phone' placeholder='502-899-7778' name='appt_phone' value='' required)
+        select(id='appt_type' name='appt_type')
+          optgroup(label='Appointment Type') Appointment Type
+          option(label='Vision Exam') Vision Exam
+          option(label='Medical Exam') Medical Exam
+          option(label='Lasik Consult') Lasik Consult
+          option(label='Caratact Surgery Evaluation') Caratact Surgery Evaluation
+        textarea(placeholder='Do you have any questions? Ask away!' autocapitalize='sentances' name='appt_comments')
+        input(type='submit' value='Submit')
+    .col-md-8.page-sub-list
+      h3 What to know about vision exams...
+      ul
+        li It is necessiary to monitor how clear you are able to see the world around you.
+        li It is bennifical even for people who do not wear glasses to monitor their vison health.
+        li It is important for people who currently wear glasses or contacts.
+        li It is required for children each year before the school year begins. 
+        li It is required for patients who want Latice
+        li It is required for people who want colored contacts (reguardless of correction)
+    .col-md-8.page-sub-list
+      h3 Popular Glasses Brands
+      
+      

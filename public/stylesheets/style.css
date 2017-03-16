@@ -1,0 +1,314 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/*===========================================
+=================COLORS======================
+===========================================*/
+
+.very-light-blue {
+  color: rgb(128, 128, 179);
+}
+
+.very-light-blue-bkg {
+  background-color: rgb(128, 128, 179);
+}
+
+.light-blue {
+  color: rgb(86, 86, 149);
+}
+
+.light-blue-bkg {
+  background-color: rgb(86, 86, 149);
+}
+
+.blue {
+  color: rgb(26, 26, 89);
+}
+
+.blue-bkg {
+  background-color: rgb(26, 26, 89);
+}
+
+.dark-blue {
+  color: rgb(9, 9, 59);
+}
+
+.dark-blue-bkg {
+  background-color: rgb(9, 9, 59);
+}
+
+.very-light-gold {
+  color: rgb(255, 219, 170);
+}
+
+.very-light-gold-bkg {
+  background-color: rgb(255, 219, 170);
+}
+
+.light-gold {
+  color: rgb(212, 167, 106);
+}
+
+.light-gold-bkg {
+  background-color: rgb(212, 167, 106);
+}
+
+.gold {
+  color: rgb(170, 121, 57);
+}
+
+.gold-bkg {
+  background-color: rgb(170, 121, 57);
+}
+
+.dark-gold {
+  color: rgb(85, 49, 0) ;
+}
+
+.dark-gold-bkg {
+  background-color: rgb(85, 49, 0);
+}
+
+.grey-bkg-t {
+  background-color: rgba(25,25,25,.07);
+}
+
+p,
+th,
+td{
+  font-size: 18px;
+}
+
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.header {
+  height: 900px;
+  background-image: url('../images/refraction.jpg');
+  background-size: cover;
+}
+
+.header h1 {
+  padding: 2px;
+}
+
+.header-overlay {
+  background-color: rgba(128, 128, 179,0.5);
+  height: 100%;
+}
+
+.header-text {
+  background-color: rgba(255, 219, 170,0.9);
+  margin: 200px 100px;  
+  height: 250px;
+}
+
+.header-text ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header-text li {
+  display: inline-block;
+  margin: 10px 0;
+  padding-right: 10px;
+}
+
+.header-text a {
+  text-decoration: none;
+  display: block;
+}
+
+.header-text h2 {
+  text-align: center;
+}
+
+.title {
+  height: 73px;
+}
+
+.nav {
+  text-align: right;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 0 10px;
+}
+
+.nav li:hover {
+  background-color: white;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(255, 219, 170);
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: rgb(86, 86, 149);
+}
+
+.divider {
+  height: 20px;
+}
+
+.table th{
+  width: 50%;
+  color: rgb(26, 26, 89);
+}
+
+.table td {
+  color: rgb(128, 128, 179);
+}
+
+th,
+td {
+  text-align: center;
+}
+
+.table-striped-lte-gold > tbody > tr:nth-of-type(2n+1){
+  background-color: rgb(212, 167, 106);
+}
+
+.services,
+.difference {
+  padding-top: 20px;
+}
+
+.services .col-md-2 {
+  text-align: center;
+}
+
+.services img {
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+  border: 2px #fff solid;
+  border-radius: 50%;
+}
+
+.services h2 {
+  text-align: center;
+  color: rgb(212, 167, 106);
+}
+
+.services h4 {
+  text-align: center;
+  color: rgb(212, 167, 106);
+}
+
+.difference h2 {
+  text-align: center;
+}
+
+/*===================================================================================
+===================================FOOTER============================================
+===================================================================================*/
+
+.locations h3,
+.locations h4,
+.locations a,
+.social-media h3 {
+  text-align: center;
+  color: rgb(212, 167, 106);
+}
+
+.locations .row {
+  width: 40%;
+  margin: 0 auto;
+  border-top: 2px solid rgb(212, 167, 106);
+}
+
+.social-media img {
+  height: 60px;
+  width: 60px;
+  background-color: transparent;
+  border: none;
+  border-radius: 20%;
+}
+
+.sponsor .row {
+  text-align: center;
+}
+
+.sponsor img {
+  margin: 5px 0;
+  width: 200px;
+  height: 100px;
+  border-radius: 0;
+  
+}
+
+/*=====================================================================================
+=====================================PAGES=============================================
+=====================================================================================*/
+
+.page-sub-text h3,
+.page-sub-list h3{
+  color:  rgb(26, 26, 89);
+  text-align: center;
+}
+
+.page-sub-text h4,
+.page-sub-list li{
+  color: rgb(128, 128, 179);
+  text-shadow: 1px 1px 1px #1a1a59
+}
+
+.page-sub-text h4 {
+  padding: 0 10%;
+  text-align: justify;
+}
+
+.page-sub-list ul{
+  padding-left: 30%;
+}
+
+form input,
+form textarea,
+form select {
+  display: block;
+  margin: 0 auto;
+  width:  50%;
+}
+
+form textarea {
+  height:  100px;
+  resize: none;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+    
+    h1 {
+    color: green;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+
+    h1 {
+    color: red;
+    }
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
