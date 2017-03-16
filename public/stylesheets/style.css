@@ -108,7 +108,7 @@ a {
 
 .header-text {
   background-color: rgba(255, 219, 170,0.9);
-  margin: 200px 100px;  
+  margin-top: 200px;  
   height: 250px;
 }
 
@@ -191,6 +191,14 @@ td {
   text-align: center;
 }
 
+.service-pad {
+  padding-bottom: 20px;
+}
+
+.service-pad-active {
+  padding-bottom: 0;
+}
+
 .services img {
   height: 100px;
   width: 100px;
@@ -198,6 +206,15 @@ td {
   border: 2px #fff solid;
   border-radius: 50%;
 }
+
+.services-active img {
+  height: 120px;
+  width: 120px;
+  background-color: #fff;
+  border: 2px #fff solid;
+  border-radius: 50%;
+}
+
 
 .services h2 {
   text-align: center;
@@ -225,10 +242,8 @@ td {
   color: rgb(212, 167, 106);
 }
 
-.locations .row {
-  width: 40%;
-  margin: 0 auto;
-  border-top: 2px solid rgb(212, 167, 106);
+ .vSplit {
+  border-right: 2px solid rgb(212, 167, 106);
 }
 
 .social-media img {
